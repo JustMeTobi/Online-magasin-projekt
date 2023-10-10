@@ -1,7 +1,14 @@
 /* Hele siden */
 * {
-    background-color: #1D1816;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #1D1816;
 }
 
 /* Navigations linje */
