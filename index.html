@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">  <!-- Jeg har linket min css fil, så jeg kan style mit html -->
+    <link rel="stylesheet" href="styles.css">  
+    <!-- Jeg har linket min css fil, så jeg kan style mit html -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <!-- Linket google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Linking google icons -->
     <title>Fitness Buddy</title>
 </head>
 
@@ -11,56 +19,68 @@
 
 <!-- Navigations i toppen af min side -->
 <header>
-    <!-- Logo til venstre -->
-    <div>
-        <img src="images/Skærmbillede 2023-10-09 102047.png" alt="logo" class="logo">
-    </div>
-    <!-- Indhold i midten -->
-    <nav> 
-        <ul>
-            <li>
-                <a href="buddy.html">
-                    <span aria-hidden="true">00</span>Buddy
-                </a>
-            </li>
-            <li>
-                <a href="træningsprogram.html">
-                    <span aria-hidden="true">01</span>Træningsprogram
-                </a>
-            </li>
-            <li>
-                <a href="kost.html">
-                    <span aria-hidden="true">02</span>Kost
-                </a>
-            </li>
-            <li>
-                <a href="øverlser.html">
-                    <span aria-hidden="true">03</span>Øverlser
-                </a>
-            </li>
-            <li>
-                <a href="fælleskab.html">
-                    <span aria-hidden="true">04</span>Fælleskab
-                </a>
-            </li>
-            <li>
-                <a href="omos.html">
-                    <span aria-hidden="true">05</span>Om os
-                </a>
-            </li>
+    <div class="navbar">
+        <!-- Logo til venstre -->
+        <div class="logo">
+            <a href="index.html" class="logo-link">
+                <img src="images/Skærmbillede 2023-10-09 102047.png" alt="logo" class="img_logo">
+            </a>
+        </div>
+        <!-- Indhold i midten -->
+        <ul class="links">
+            <li><a href="buddy.html">Buddy</a></li>
+            <li><a href="træningsprogram.html">Træningsprogram</a></li>
+            <li><a href="kost.html">Kost</a></li>
+            <li><a href="øverlser.html">Øverlser</a></li>
+            <li><a href="fælleskab.html">Fælleskab</a></li>
+            <li><a href="omos.html">Om os</a></li>
         </ul>
-    </nav>
-    <!-- Søge knap til højre -->
-    <div>
-        <img src="images/search_FILL0_wght400_GRAD0_opsz24.png" alt="søg_knap">
+        <!-- Søge knap til højre -->
+        <div class="search_btn">
+            <span class="material-symbols-outlined">search</span>
+        </div>
+
+        <div class="toogle_btn">
+            <span class="material-symbols-outlined">menu</span>
+        </div>
+    </div>
+
+    <div class="dropdown_menu">
+        <li><a href="buddy.html">Buddy</a></li>
+        <li><a href="træningsprogram.html">Træningsprogram</a></li>
+        <li><a href="kost.html">Kost</a></li>
+        <li><a href="øverlser.html">Øverlser</a></li>
+        <li><a href="fælleskab.html">Fælleskab</a></li>
+        <li><a href="omos.html">Om os</a></li>
     </div>
 </header>
-<main>
-    
-</main>
-</body>
-<footer>
 
-</footer>
+<!-- Min hoveddel af forsiden -->
+<main>
+<section id="hero">
+    <h1>Fitness Buddy</h1>
+    <p>Brug for motivation eller bare en ven? <br>
+    Her finder du begge dele</p>
+</section>
+
+</main>
+
+<script>
+    const toggleBtn = document.querySelector('.toogle_btn');
+const toggleBtnIcon = document.querySelector('.toogle_btn span');
+const dropDownMenu = document.querySelector('.dropdown_menu');
+
+toggleBtn.onclick = function () {
+    dropDownMenu.classList.toggle('open');
+    const isOpen = dropDownMenu.classList.contains('open');
+
+    toggleBtnIcon.classList = isOpen
+        ? 'material-symbols-outlined'
+        : 'material-symbols-outlined';
+};
+
+
+</script>
+</body>
 
 </html>
