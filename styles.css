@@ -282,6 +282,7 @@ section#hero {
         display: block;
 
 }
+}
 
 @media (max-width: 576px) {
     .img_logo {
