@@ -29,12 +29,12 @@ p {
     height: 3.5rem;
     display: flex;
     align-items: center;
-    margin: 0 0 0 100px;
+    margin: 0 100px 0 50px;
 }
 
 /* Søge knap */
 .search_btn {
-    background-color: #814D71;
+    background-color: #4C5E79;
     color: #fff;
     padding: 0.5rem;
     border: 2px solid;
