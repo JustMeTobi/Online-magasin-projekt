@@ -1,0 +1,17 @@
+.buddyPic h1 {
+    position: absolute;
+    z-index: 1;
+    top: 655px;
+    font-size: 80px;
+}
+
+.buddyPic {
+    display: flex;
+    justify-content: center;
+}
+
+.buddyPic img {
+    width: 100%;
+    object-fit: cover;
+}
+
