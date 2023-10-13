@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="CSS/buddy.css">
+    <link rel="stylesheet" href="CSS/navmenu.css">
     <!-- Jeg har linket min css fil, så jeg kan style mit html -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,77 +30,53 @@
             </a>
         </div>
         <!-- Indhold i midten -->
-        <ul id="menu">
-            <li><a href="buddy.html" class="active">Buddy</a>
-                <ul>
-                    <li><a href="#">Find a Buddy</a></li>
-                    <li><a href="#">Bliv en Buddy</a></li>
-                    <li><a href="buddy3.html">Hvad er en Buddy?</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Træningsprogram</a>
-                <ul>
-                    <li><a href="#">Se andres programmer</a></li>
-                    <li><a href="#">Byg selv et program</a></li>
-                    <li><a href="#">Udfordringer</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Kost</a>
-                <ul>
-                    <li><a href="#">Opskrifter</a></li>
-                    <li><a href="#">Tips til sundhed</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Øverlser</a>
-                <ul>
-                    <li>
-                        <a href="#">Overkrop</a>
-                        <ul>
-                            <li><a href="#">Øverlser</a></li>
-                            <li><a href="#">Før og eftter</a></li>
-                            <li><a href="#">Øverlser</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Underkrop</a>
-                        <ul>
-                            <li><a href="#">Øverlser</a></li>
-                            <li><a href="#">Før og eftter</a></li>
-                            <li><a href="#">Øverlser</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Ryg</a>
-                        <ul>
-                            <li><a href="#">Øverlser</a></li>
-                            <li><a href="#">Før og eftter</a></li>
-                            <li><a href="#">Øverlser</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Nakke</a>
-                        <ul>
-                            <li><a href="#">Øverlser</a></li>
-                            <li><a href="#">Før og eftter</a></li>
-                            <li><a href="#">Øverlser</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="#">Fælleskab</a>
-                <ul>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Forum</a></li>
-                    <li><a href="#">Udfordringer</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Om os</a></li>
-        </ul>
+        <div>
+            <ul id="menu">
+                <li><a href="#">Buddy</a>
+                    <ul>
+                        <li><a href="#">Find En Buddy</a></li>
+                        <li><a href="#">Bliv En Buddy</a></li>
+                        <li><a href="#">Hvad Er En Buddy</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Træningsprogram</a>
+                    <ul>
+                        <li><a href="#">Se Andres Programmer</a></li>
+                        <li><a href="#">Byg Et Program Selv</a>
+                            <ul>
+                                <li><a href="#">Excel Fil</a></li>
+                                <li><a href="#">Generator</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Udfordringer</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Kost</a>
+                    <ul>
+                        <li><a href="#">Opskrifter</a></li>
+                        <li><a href="#">Tips Til Sundhed</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Fælleskab</a>
+                    <ul>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Udfordringer</a>
+                            <ul>
+                                <li><a href="#">Udfordringer</a></li>
+                                <li><a href="#">Konkurrencer</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Om os</a></li>
+            </ul>
+        </div>
         <!-- Søge knap til højre -->
         <div class="search_btn">
             <span class="material-symbols-outlined">search</span>
         </div>
-<!-- Respinsiv burger menu -->
+        <!-- Respinsiv burger menu -->
         <div class="toogle_btn">
             <span class="material-symbols-outlined">menu</span>
         </div>
