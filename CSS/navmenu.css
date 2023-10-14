@@ -9,8 +9,8 @@
 
 /* Logo */
 .img_logo {
-    width: 10rem;
-    height: 3.5rem;
+    width: 55%;
+    height: auto;
     display: flex;
     align-items: center;
     margin: 0 100px 0 50px;
@@ -24,9 +24,9 @@
 }
 
 #menu {
-    width: 735.5px;
+    width: 100%;
     height: 50px;
-    margin: auto;
+    margin: 0 auto;
     background-color: #4C5E79;
     border-radius: 6px;
     display: flex;
@@ -49,6 +49,7 @@
 
 #menu li:last-child {
     box-shadow: none;
+    
 }
 #menu li:hover:last-child {
     box-shadow: 1px 0 0 #111;

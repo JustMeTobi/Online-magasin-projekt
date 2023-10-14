@@ -2,22 +2,20 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Bungee', cursive;
     color: #fff;
 }
 
 body {
     background-color: #1D1816;
+    width: 100%;
+    margin: 0;
 }
 
 p {
     font-family: 'Inter', sans-serif;
 }
 
-main {
-    width: 100%;
-}
 
 /* Resposiv design */
 @media (max-width: 922px) {
