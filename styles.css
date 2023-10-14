@@ -15,6 +15,10 @@ p {
     font-family: 'Inter', sans-serif;
 }
 
+main {
+    width: 100%;
+}
+
 /* Resposiv design */
 @media (max-width: 922px) {
 
