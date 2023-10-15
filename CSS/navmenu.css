@@ -72,3 +72,7 @@
 #menu > li:hover > a {
     color: #fff;
 }
+
+#menu .active {
+    color: #4C5E79;
+}
