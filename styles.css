@@ -1,19 +1,16 @@
 /* Hele siden */
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Bungee', cursive;
     color: #fff;
 }
 
 body {
     background-color: #1D1816;
-    width: 100%;
-    margin: 0;
 }
 
 p {
     font-family: 'Inter', sans-serif;
+    line-height: 1.5;
 }
 
 

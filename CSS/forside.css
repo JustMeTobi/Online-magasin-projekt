@@ -1,136 +1,180 @@
-/* Hero section */
-section#hero {
-    height: 600px;
-    width: 100%;
+/* Set a flex container for the "hoveddel" section */
+#hoveddel {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    margin-top: 10vh;
 }
 
-#hero h1 {
-    color: black;
-    -webkit-text-fill-color: white; 
-    -webkit-text-stroke: 3px #4C5E79;  
-    /* Kode som jeg har prøvet mig frem med, men endte med text-shaodow, da det ikke gav samme resultat*/
-    /* text-shadow: 3px -5px 0px #814D71, 5px -10px 0px #4C5E79; */
-    color: #FFF;
-    text-align: center;
-    font-family: Bungee;
-    font-size: 50px;
-    font-style: normal;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+/* Styles for kanpper */
+.button-left {
+    background-color: #814D71;
+    color: #fff;
+    margin-right: 30px;
 }
 
-#hero p {
-    font-size: 26px;
+.button-right {
+    background-color: #4C5E79;
+    color: #fff;
 }
 
-#hero button {
-    width: 50%;
-    height: 50%;
-    font-size: 18px;
-    border: 5px #fff;
+.button-left:hover,
+.button-right:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.button-left, .button-right {
+    padding: 3px 20px;
+    font-size: 25px;
     border-radius: 10px;
-    margin: 10% 30% ;
+    border: none;
 }
 
-.button_text1 {
-    background: #4C5E79;
-    color: black;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 1px #814D71;
-
+.tilmeld-knap {
+    padding: 3px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #814D71;
+    color: #fff;
 }
 
-.button_text2 {
-    background: #814D71;
-    color: black;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 1px #4C5E79;
+.tilmeld-knap:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
 }
 
-.hero {
-    display: flex;
+#last-section .tilmeld-knap {
+    margin-right: 20px;
 }
 
-.hero section#heroPic {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-top: 100px;
-    margin-right: 100px;
+.find-buddy {
+    padding: 3px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4C5E79;
+    color: #fff;
+}
+.find-buddy:hover {
+    background-color: #000;
+    color: #fff;
+    order: 1px solid #fff;
 }
 
-.pop img {
-    width: 290px;
-    height: 450px;
-    border-radius: 20px 0px 0px 20px;
-    border: 5px solid #FFF;
-    background: url(images/78c40b442b49b812e1470381d89e9649.jpg), lightgray -140.672px -0.934px / 191.214% 100% no-repeat;
-    box-shadow: 11px -10px 5px #bebebe;
-}
-
-.pop2 img {
-    width: 290px;
-    height: 450px;
-    border-radius: 0px 20px 20px 0px;
-    border: 5px solid #FFF;
-    background: url(images/FU36659-03.jpg), lightgray -140.672px -0.934px / 191.214% 100% no-repeat;
-    box-shadow: 9px -10px 5px #bebebe;
-}
-
-/* Side kick section */
-
-#sideKick {
-    display: flex;
-    flex-direction: row;
-    background: #4C5E79;
-    width: 100%;
-    margin: 0;
-}
-
-.trainerpop {
-    border-radius: 20px;
-    border: 5px solid #FFF;
-    width: 70%;
-    height: auto;
-    flex-shrink: 1;
-    margin: 50px 100px;
-}
-
-#sideKick h2 {
-    -webkit-text-fill-color: white; 
-    -webkit-text-stroke: 2px #814D71;  
-    color: #FFF;
-    font-family: Bungee;
-    font-size: 26px;
-    font-style: normal;
+/* Style for the left side */
+.hoveddel-left {
+    flex: 1; /* Takes up 50% of the available space */
+    padding: 20px;
     text-align: center;
 }
 
-#sideKick p {
-    font-size: 20px;
+h1{
+    font-size: 46px;
+    color: #fff;
+    -webkit-text-stroke: 1px #814D71; 
 }
 
-.sideKickText {
+h2 {
+    font-size: 34px;
+}
+
+.hoveddel-left, p {
+    font-size: 26px;
+}
+
+/* Style for the right side */
+.hoveddel-right {
+    flex: 1; /* Takes up 50% of the available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style for the images */
+.hoveddel-right img {
+    width: 45%; /* Adjust the width to make the images square */
+    height: 55vh;
+    box-shadow:  10px -5px 1px #fff;
+    border-radius: 0 10px 10px 0;
+    display: block;
+}
+.hoveddel-right img:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+/* CSS to center the content in the middle of the site */
+#new-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#new-section p {
+    text-align: center;
+}
+
+#last-section p {
+    text-align: center;
+}
+
+.page-text {
+    text-align: center;
+    padding: 50px;
+}
+
+.page-text p {
+    text-align: start;
+}
+
+/* Centering the h2 and p elements within the welcome-text div */
+.page-text h2,
+.page-text p {
+    margin: 20px 0; /* Remove default margins */
+}
+
+section#new-section img {
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: -10px -5px 5px #fff;
+    margin-left: 50px;
+}
+
+.fingerpointer {
+    width: 30%;
+}
+
+/* Footer section */
+
+footer {
+    display: flex;
+    align-items: center;
+    background: #0000006b;
+    margin-top: 10vh;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.social-media-icons {
+    flex: 1; /* Takes up 50% of the available space */
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    margin-left: 80px;
-    margin-right: 100px;
-    margin-top: 50px;
+
 }
 
-#sideKick2 {
+.social-media-icons img {
+    width: 25%;
+}
+
+.contact-info {
+    flex: 4;
     display: flex;
-    flex-direction: row;
-    background: #4C5E79;
-    
-}
-
-#hero a {
-    margin-top: 50px;
+    align-items: start;
+    flex-direction: column;
 }
