@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/navmenu.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="stylesheet" href="CSS/buddy.css">
+    <link rel="stylesheet" href="CSS/fællesskab.css">
     <!-- linket til mine stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,14 +16,14 @@
     <!-- Linket google font -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Buddy</title>
+    <title>Fællesskab</title>
 </head>
 
 <body>
     <header>
         <ul id="menu">
             <li><a href="index.html">Forside</a></li>
-            <li><a href="buddy.html" class="active">Buddy</a>
+            <li><a href="buddy.html">Buddy</a>
                 <ul>
                     <li><a href="#">Find En Buddy</a></li>
                     <li><a href="#">Bliv En Buddy</a></li>
@@ -48,7 +48,7 @@
                     <li><a href="#">Tips Til Sundhed</a></li>
                 </ul>
             </li>
-            <li><a href="fællesskab.html">Fælleskab</a>
+            <li><a href="fællesskab.html" class="active">Fælleskab</a>
                 <ul>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Forum</a></li>
@@ -64,56 +64,37 @@
         </ul>
     </header>
     <main>
-        <section id="hoveddelbuddy">
-            <div>
-                <img src="images/jaime-ramirez-funko-pop-shehulk-hulk-03-kopi.jpg" alt="">
-                <h1>Buddy</h1>
-            </div>
+        <section id="hoveddel">
+            <a href="#">
+                <div class="box b1">
+                    <img src="images/ezgif.com-webp-to-jpg.jpg" alt="Spider Man">
+                    <p>Events</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="box b1">
+                    <img src="images/Forum_marvel.jpg" alt="Funko pops from marvel together" class="marvel_pic">
+                    <p>Forum</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="box b1">
+                    <img src="images/trainerpop.png" alt="trainerpop lifting weights" class="trainerpop">
+                    <p>Udfordringer</p>
+                </div>
+            </a>
         </section>
 
         <section id="firstpart">
             <div class="left">
-                <h2>En buddy:</h2>
-                <p>Er en person, som har erfaring inden for fitness, eller hvertfald bare går i fitness ugentligt. En Buddy er til for at gøre oplevelsen bedre i sin startsfase, når man skal i gang med at træne.</p>
-                <p>Vores mål med at lave disse buddier, er at vi kan have nogle erfarne unge mennesker til at tage hånd over de unge mennekser, som ikke har så meget forstand eller tid til at sætte sig ind i de diverse tricks og programmer, der er med til at gøre en træning nem og overskuelig og meget mere.</p>
-                <p>At være buddy er gratis, og det skal ikke koste noget at være buddy eller blive buddy, så selv du kan være med. Bare tilmed der jer forneden.</p>
+                
             </div>
             <div class="right">
-                <img src="images/trainerpop-kopi.png" alt="trainerpop">
+                
             </div>
         </section>
         <section>
-            <div>
-                <h3><u>Tilmelding</u></h3>
-                <form>
-                    <label for="name">Navn:</label>
-                    <input type="text" id="name" name="name" required>
-
-                    <label for="address">Adresse:</label>
-                    <input type="text" id="address" name="address" required>
-
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-
-                    <label for="password">Adgangskode:</label>
-                    <input type="password" id="password" name="password" required>
-
-                    <label for="confirm_password">Bekræft Adgangskode:</label>
-                    <input type="password" id="confirm_password" name="confirm_password" required>
-
-                    <label for="birthdate">Fødselsdato:</label>
-                    <input type="date" id="birthdate" name="birthdate" required>
-
-                    <label for="gender">Køn:</label>
-                    <select id="gender" name="gender">
-                        <option value="male">Mand</option>
-                        <option value="female">Kvinde</option>
-                        <option value="other">Andet</option>
-                    </select>
-
-                    <input type="submit" value="Tilmeld">
-                </form>
-            </div>
+            
         </section>
 
         <section id="last-section">

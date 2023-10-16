@@ -1,0 +1,53 @@
+#hoveddel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#hoveddel a {
+    width: 25%;
+    height: 30vh;
+    background: #814D71;
+    border-radius: 15px;
+    border: solid 5px #4C5E79;
+    margin: 2%;
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#hoveddel a:hover {
+    scale: 1.10;
+    background: #4C5E79;
+    opacity: 80%;
+}
+
+.box p {
+    font-size: 36px;
+    font-family: 'Bungee';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a div img {
+    width: 100%;
+    position: absolute;
+    top: -140px;
+}
+
+.marvel_pic {
+    top: -100px;
+}
+
+.trainerpop {
+    
+    width: 120%;
+    top: 0px;
+    left: -10%;
+}
