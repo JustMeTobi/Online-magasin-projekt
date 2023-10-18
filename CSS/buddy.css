@@ -21,13 +21,15 @@
 #firstpart {
     display: flex;
     flex-direction: row;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 #firstpart img {
     width: 80%;
     border-radius: 20px;
     border: solid 2px #fff;
+    position: sticky;
+    top: 50px;
 }
 
 .left {
@@ -46,6 +48,7 @@
 .left p {
     font-size: 18px;
 }
+
 
 .right {
     flex: 1;
@@ -105,4 +108,52 @@ input[type="submit"]:hover {
 
 select option {
     color: black;
+}
+
+#last-section {
+    height: 500px;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#last-section .leftlast {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 20px;
+    border: solid #fff 2px;
+    margin-left: 50px;
+}
+
+.leftlast img {
+    position: relative;
+    top: -100px;
+}
+
+#last-section .rightlast {
+    flex: 2;
+    padding-right: 50px;
+}
+
+.rightlast p {
+    margin: 50px;
+}
+
+.rightlast h3 {
+    font-size: 36px;
+}
+
+.rightlast h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.midt {
+    text-align: center;
+    margin: 0 200px;
 }
