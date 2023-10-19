@@ -1,0 +1,122 @@
+/* Starts billede af siden */
+
+#hoveddeløvelser {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#hoveddeløvelser img{
+    width: 100%;
+    position: relative;
+    color: white;
+    top: -150px;
+}
+
+#hoveddeløvelser h1 {
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    -webkit-text-stroke: 1px #000; 
+
+}
+
+/* Del efter starts billede */
+
+#boxes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+
+#boxes a {
+    width: 40%;
+    height: 30vh;
+    background: #814D71;
+    border-radius: 15px;
+    border: solid 5px #4C5E79;
+    margin: 2%;
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#boxes a:hover {
+    scale: 1.10;
+    background: #4C5E79;
+    opacity: 80%;
+}
+
+.box p {
+    font-size: 36px;
+    font-family: 'Bungee';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a div img {
+    width: 100%;
+    position: absolute;
+}
+
+.b1 > img{
+    position: absolute;
+    top: -150px;
+}
+.b2 > img{
+    position: absolute;
+    top: -150px;
+}
+
+/* Text i bunden af siden */
+
+#firstpart {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px;
+    padding: 0;
+}
+h2 {
+    text-align: start;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#firstpart img {
+    width: 80%;
+    border-radius: 20px;
+    border: solid 2px #fff;
+    position: sticky;
+    top: 200px;
+    margin: 100px;
+}

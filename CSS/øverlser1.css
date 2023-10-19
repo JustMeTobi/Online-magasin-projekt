@@ -1,0 +1,129 @@
+/* Styling for the top id */
+#top {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+#top img {
+    width: 100%;
+}
+
+#top div {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    overflow: hidden;
+}
+#top div img {
+    width: 100%;
+}
+
+
+/* Valg af content i box */
+#options {
+    width: 80;
+    height: 200px;
+    overflow: hidden;
+    background: gray;
+    margin: 150px 50px 0 50px;
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+#options h2 {
+    font-size: 46px;
+    margin: 0;
+    -webkit-text-stroke: #4C5E79 1px;
+
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4C5E79;
+    color: white;
+    border: 1px solid #4C5E79;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* Boxe under valg af centent */
+#midt {
+    height: 1400px;
+    background: gray;
+    margin: 10px 50px 0 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 130px;
+}
+
+#midt img {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    border: solid 2px #fff;
+    position: sticky;
+    overflow: hidden;
+    top: 100px;
+    margin: 50px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-right: 50px;
+}
+
+.right h2, h3 {
+    margin: 20px 0 0 0;
+}
+
+.right p {
+    font-size: 18px;
+}
+
+ul > ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+ol > ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+

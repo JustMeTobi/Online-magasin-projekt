@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/navmenu.css">
     <link rel="stylesheet" href="CSS/footer.css">
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="stylesheet" href="CSS/events.css">
+    <link rel="stylesheet" href="CSS/øverlser1.css">
     <!-- linket til mine stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,14 +16,14 @@
     <!-- Linket google font -->
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>Fællesskab</title>
+    <title>Overkrop Redskaber</title>
 </head>
 
 <body>
     <header>
         <ul id="menu">
             <li><a href="index.html">Forside</a></li>
-            <li><a href="#">Buddy</a>
+            <li><a href="#" >Buddy</a>
                 <ul>
                     <li><a href="#">Find En Buddy</a></li>
                     <li><a href="#">Bliv En Buddy</a></li>
@@ -42,13 +42,13 @@
                     <li><a href="#">Udfordringer</a></li>
                 </ul>
             </li>
-            <li><a href="øvelser.html" >Øvelser</a>
+            <li><a href="øvelser.html" class="active">Øvelser</a>
                 <ul>
-                    <li><a href="øvelser1.html" >Overkrop</a>
+                    <li><a href="øvelser1.html" class="active">Overkrop</a>
                         <ul>
                             <li><a href="øvelser1.html">Øvelser</a></li>
                             <li><a href="øvelser2.html">Før og efter</a></li>
-                            <li><a href="øvelser3.html">Redskaber</a></li>
+                            <li><a href="øvelser3.html" class="active">Redskaber</a></li>
                         </ul>
                     </li>
                         
@@ -82,9 +82,9 @@
                     <li><a href="#">Tips Til Sundhed</a></li>
                 </ul>
             </li>
-            <li><a href="fællesskab.html" class="active">Fælleskab</a>
+            <li><a href="fællesskab.html">Fælleskab</a>
                 <ul>
-                    <li><a href="events.html" class="active">Events</a></li>
+                    <li><a href="events.html">Events</a></li>
                     <li><a href="#">Forum</a></li>
                     <li><a href="#">Udfordringer</a>
                         <ul>
@@ -98,50 +98,70 @@
         </ul>
     </header>
     <main>
-        <section id="hoveddel">
-            <h1>Cardio Med Pernille</h1>
-            <u>Hver dag i ugen</u>
+        <section id="top">
+            <img src="images/trainerpop.png" alt="Bilelde af muskler">
+            <div><img src="images/Facebook_Icon.png" alt="muskler"></div>
         </section>
 
-        <section id="firstpart">
-            <div class="billede">
-                <img src="images/jaime-ramirez-funko-pop-shehulk-hulk-03.jpg" alt="" class="event1">
-            </div>
-            <div class="text">
-                <h3>🚴‍♀️ Join Os på Cardio Hver Dag i Ugen! 🚴‍♂️</h3>
-                <p>Er du klar til at tage din træning til det næste niveau og være en del af et fællesskab, der brænder for cardio? Vi præsenterer med stolthed vores Cardio med Persnille-hold, hvor du kan deltage hver eneste dag i ugen!</p>
-                <p>Uanset om du er en nybegynder, en træningsekspert eller et sted derimellem, er dette holdet for dig. Vores dygtige instruktør, Persnille, er klar til at guide dig igennem hjertepumpende cardio-øvelser, der vil forbedre din udholdenhed, styrke dit hjerte og booste din energi.</p>
-                <p>Vi tror på, at træning skal være sjovt og inkluderende, og derfor har vi designet dette hold til at passe til alle fitness niveauer. Persnille vil tilpasse øvelserne, så de passer til dig, uanset om du er nybegynder eller en erfaren atlet.</p>
-                <p>Tilmeld dig vores Cardio med Persnille-hold i dag og vær med til at forme din sundhed og træningsrejse. Klik nedenfor for at sikre din plads:</p>
-                <a href="#">Tilmed hold</a>
+        <section id="options">
+            <h2>Overkrop</h2>
+
+            <div class="pagination">
+                <a href="øvelser1.html">Øvelser</a>
+                <a href="øvelser2.html">Før og Efter</a>
+                <a href="øvelser3.html" class="active">Redskaber</a>
             </div>
         </section>
-
-        <section id="firstpart">
-            <div class="text">
-                <h3>💪 Vær med til en Uforglemmelig CrossFit Uge! 💪</h3>
-                <p>Er du klar til at tage din CrossFit-træning til næste niveau og udfordre dig selv som aldrig før? Vi erbegejstrede for at præsentere vores CrossFit med Pernille, hvor du kan deltage hver eneste dag i ugen!</p>
-            
-                <p>Pernille er ikke kun en træner. Hun er en CrossFit-entusiast, og hendes energi og lidenskab smitter af på alle i hendes klasse. Dette er din chance for at træne med en af de bedste og mest inspirerende CrossFit-trænere i området.</p>
-            
-                <p>Uanset om du er nybegynder eller en erfaren CrossFit-atlet, vil Pernille lede dig gennem de mest udfordrende øvelser og hjælpe dig med at forbedre din styrke, udholdenhed og teknik.</p>
-            
-                <p>Vi ønsker at inkludere alle, og derfor er dette event åbent for CrossFitters på alle niveauer. Pernille tilpasser øvelserne, så de passer til dig, uanset om du er en ny til CrossFit eller allerede har en imponerende præstation bag dig.</p>
-            
-                <p>Tilmeld dig vores CrossFit med Pernille. Klik nedenfor for at reservere din plads:</p>
-                <a href="#">Tilmed hold</a>
+        <section id="midt">
+            <div class="left">
+                <img src="images/trainerpop-kopi.png" alt="Bænk pres">
+                <img src="images/trainerpop-kopi.png" alt="Hvordan øvelsen gøres">
             </div>
-            <div class="billede">
-                <img src="images/jaime-ramirez-funko-pop-shehulk-hulk-03.jpg" alt="Cross fitter funko pop" class="event2">
+
+            <div class="right">
+                <h2>Udstyr og Redskaber til Bænkpres:</h2>
+                
+                <p>For at udføre bænkpres på en sikker og effektiv måde, er det vigtigt at have det rette udstyr og redskaber til rådighed. <br>Her er, hvad du skal bruge:
+                </p>
+                <ol>
+                    <li>Vægtstang:</li>
+                    <ul>
+                        <li>En vægtstang er kernen i bænkpresøvelsen. Den bruges til at bære vægten, du løfter. Vægtstænger kommer i forskellige længder og vægtkapaciteter, så vælg en, der passer til dit erfaringsniveau og mål.</li>
+                    </ul>
+                    
+                    <li>Vægtskiver:</li> 
+                    <ul>
+                        <li>Du skal bruge vægtskiver til at tilføje belastning til vægtstangen. Vægtskiver fås i forskellige vægtklasser og materialer. Start med lette vægte og øg gradvist, når du bliver stærkere.</li>
+                    </ul>
+                    
+                    <li>Bænk:</li>
+                    <ul>
+                        <li>En træningsbænk med en flad og stabil overflade er afgørende for bænkpres. Det giver dig den nødvendige støtte og komfort under øvelsen. Vælg en bænk, der kan indstilles i en højde, der passer til din krop og teknik.</li>
+                    </ul>
+                    
+                    <li>Sikkerhedsstativ:</li>
+                    <ul>
+                        <li>Brug sikkerhedsstativer, også kendt som "squat racks" eller "power racks," til at forhindre, at vægtstangen falder ned på dig, hvis du ikke kan fuldføre en gentagelse. Sikkerhedsstativer er afgørende for at minimere risikoen for skader.</li>
+                    </ul>
+                    
+                    <li>Træningssko:</li> 
+                    <ul>
+                        <li>Gode træningssko giver dig stabilitet og greb på gulvet, hvilket er vigtigt for at opretholde korrekt teknik og undgå skader.</li>
+                    </ul>
+                    
+                    <li>Grebsstøtte:</li>
+                    <ul>
+                        <li>Nogle bænkpresser bruger grebsstøtte til at hjælpe med at holde vægtstangen sikkert og stabilt. Dette kan være en god tilføjelse, især hvis du træner med tungere vægte.</li>
+                    </ul>
+                    
+                    <li>Spotter:</li>
+                    <ul>
+                        <li>En træningsmakker eller spotter kan give ekstra sikkerhed og hjælp, især når du udfører bænkpres med tunge vægte. Spotteren kan hjælpe med at løfte vægtstangen, hvis du ikke kan gennemføre gentagelsen.</li>
+                    </ul>
+                </ol>
+                
+                <p>Disse er de primære udstyr og redskaber, du skal bruge for at udføre bænkpres. At vælge det rigtige udstyr og sørge for, at det er korrekt indstillet, er vigtigt for din sikkerhed og succes under øvelsen.</p>
             </div>
-        </section>
-
-        <section>
-            
-        </section>
-
-        <section id="last-section">
-
         </section>
     </main>
     <footer>
